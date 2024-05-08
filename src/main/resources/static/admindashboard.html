@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admindashboard.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Admin Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#" class="active">Employees</a></li>
+                <li><a href="#">Managers</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">All Users</a></li>
+            </ul>
+        </aside>
+
+        <section class="main-content">
+            <div id="employeeSection">
+                <h2>Employees</h2>
+                <button id="addEmployeeBtn">Add Employee</button>
+                <ul id="employeeList">
+                    <!-- Employee details will be dynamically populated here -->
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Admin Dashboard. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="admindashboard.js"></script>
+</body>
+</html>
